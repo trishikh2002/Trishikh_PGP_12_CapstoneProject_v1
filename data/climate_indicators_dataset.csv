@@ -1,0 +1,34 @@
+year,global_temp_anomaly_c_vs_1850_1900,atmospheric_co2_ppm,global_fossil_co2_emissions_gt,arctic_sea_ice_min_million_km2,global_mean_sea_level_mm_change_since_1993
+1980,0.42,338.7,19.5,7.85,-13
+1985,0.29,346.0,19.8,7.5,-8
+1990,0.45,354.4,22.5,6.2,-3
+1995,0.48,360.8,23.5,6.1,4
+2000,0.54,369.7,25.5,6.3,12
+2005,0.68,379.8,28.8,5.6,25
+2010,0.72,389.9,33.5,4.9,38
+2015,1.00,400.8,35.5,4.6,58
+2020,1.16,412.4,34.8,3.9,80
+2023,1.45,419.3,37.4,4.2,97
+2024,1.55,422.8,37.8,4.1,101
+2025,1.53,427.5,38.2,4.0,106
+
+# Column notes:
+# - global_temp_anomaly_c_vs_1850_1900: global mean surface temperature anomaly vs. the
+#   1850-1900 pre-industrial baseline, in degrees Celsius. 2024 figure (1.55C) is the WMO's
+#   confirmed value (warmest year on record); other years are approximate, order-of-magnitude
+#   consistent with WMO/Copernicus/NASA GISTEMP/NOAA/Berkeley Earth reporting.
+# - atmospheric_co2_ppm: annual mean atmospheric CO2 concentration in parts per million,
+#   NOAA Global Monitoring Laboratory / Mauna Loa Observatory record. 2024 (422.8) and
+#   2025 (427.5) are reported values; earlier years are approximate.
+# - global_fossil_co2_emissions_gt: approximate annual global fossil CO2 emissions
+#   (coal, oil, gas, cement) in gigatonnes CO2, broadly consistent with Global Carbon
+#   Project estimates.
+# - arctic_sea_ice_min_million_km2: approximate annual Arctic sea ice minimum extent
+#   (September), in million square kilometers, consistent with NSIDC satellite records
+#   (record low was 2012, not shown here).
+# - global_mean_sea_level_mm_change_since_1993: approximate cumulative change in global
+#   mean sea level relative to the 1993 satellite-altimetry baseline, in millimeters,
+#   consistent with a long-term rate of roughly 3.3-4.5 mm/year (accelerating).
+# - Figures for 2024 and 2025 reflect reported values from NOAA, WMO, and related sources
+#   as of early-to-mid 2026; all other years are illustrative approximations for
+#   demonstration/testing purposes and should not be used for scientific analysis.

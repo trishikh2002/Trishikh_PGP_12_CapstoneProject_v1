@@ -1,0 +1,13 @@
+# Python virtual environment
+.venv/
+.capstone_Trishikh
+
+# Environment variables and secrets
+.env
+
+# Python generated files
+__pycache__/
+*.py[cod]
+
+# Local application data
+.DS_Store
