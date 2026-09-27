@@ -14,7 +14,7 @@ from langchain_groq import ChatGroq
 from Ingest import COLLECTION, DB_DIR, add_uploaded_document, get_embeddings
  
 load_dotenv()  # reads GROQ_API_KEY from .env
-groq_api_key = os.getenv("GROQ_API_KEY")
+groq_api_key = st.secrets["GROQ_API_KEY"]
  
 st.set_page_config(page_title="Climate Chatbot", page_icon="🌍")
 st.markdown(
